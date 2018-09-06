@@ -1,0 +1,41 @@
+	.container-str {
+			width:602px;
+			height:22px;
+			border: 1px solid silver;
+			overflow:hidden;
+			margin-left: 700px;
+			
+		}
+		.str-elm {
+			width:200px;
+			height:22px;
+			float: left;
+			text-align: center;
+			
+		}
+		
+		.line-wert {
+			border-right: 1px solid silver;
+		}
+		
+		.head-table {
+				color: #932B2B;
+				margin-top: 100px;
+				background: wheat;
+		}
+		.void {
+				margin-left: 700px;
+			
+		}
+		
+		.shift {
+			width:300;
+			height:300;
+			padding-top: 100;
+			margin-left: 700px;
+			margin-top: 100px;
+			background: wheat;
+			text-align: center;
+			border: 1px solid black;
+		}
+			
