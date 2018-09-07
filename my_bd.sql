@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Сен 07 2018 г., 00:44
+-- Время создания: Сен 07 2018 г., 11:20
 -- Версия сервера: 5.6.38
 -- Версия PHP: 5.5.38
 
@@ -64,7 +64,8 @@ INSERT INTO `users` (`id_users`, `user`, `age`, `Id_City`) VALUES
 (1, 'Артур', 25, 1),
 (2, 'Виталий', 22, 3),
 (3, 'Григорий', 23, 4),
-(4, 'Валентина', 60, 2);
+(4, 'Валентина', 60, 2),
+(5, 'Алексей', 25, 3);
 
 --
 -- Индексы сохранённых таблиц
@@ -96,7 +97,7 @@ ALTER TABLE `City`
 -- AUTO_INCREMENT для таблицы `users`
 --
 ALTER TABLE `users`
-  MODIFY `id_users` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id_users` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
